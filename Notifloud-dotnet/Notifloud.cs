@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Notifloud_dotnet
+﻿namespace Notifloud_dotnet
 {
     public class Notifloud
     {
@@ -13,23 +7,16 @@ namespace Notifloud_dotnet
         public Notifloud() =>
             Toasts = new List<NotifloudToast>();
 
-        public void Success(string message)
-        {
-            Toasts.Add();
-        }
+        public void Success(string message) =>
+            Toasts.Add(NotifloudToast.Create(message));
 
-        public void Error()
-        {
+        public void Error(string message) =>
+            Toasts.Add(NotifloudToast.Create(message));
+        
+        public void Information(string message) => 
+            Toasts.Add(NotifloudToast.Create(message));
 
-        }
-
-        public void Information()
-        {
-
-        }
-
-        public void Warning() { 
-            
-        }
+        public void Warning(string message) => 
+            Toasts.Add(NotifloudToast.Create(message));
     }
 }
