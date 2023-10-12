@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0moKORmfyXgRksajgXlTZmrzD+MjR7d4zUITj+UUfuLanF4KWXlo8teVdxem+hmV9FCGeE04TD4uV+r5/zhjSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud-dotnet\\Notifloud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
