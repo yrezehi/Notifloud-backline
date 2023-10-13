@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud-dotnet\\Notifloud.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud\\Notifloud.csproj",
       "projectName": "Notifloud",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud-dotnet\\Notifloud.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud\\Notifloud.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud-dotnet\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\Projects\\Notifloud-dotnet\\Notifloud\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -126,6 +126,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
