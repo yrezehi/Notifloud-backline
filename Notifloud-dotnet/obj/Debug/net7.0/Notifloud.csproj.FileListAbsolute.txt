@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\bin\Debug\net7.0\Notifloud.deps.json
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\bin\Debug\net7.0\Notifloud.dll
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\bin\Debug\net7.0\Notifloud.pdb
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.dll
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\refint\Notifloud.dll
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\Notifloud.pdb
+C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\obj\Debug\net7.0\ref\Notifloud.dll

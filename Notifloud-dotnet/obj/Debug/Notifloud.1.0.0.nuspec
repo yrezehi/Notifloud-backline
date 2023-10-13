@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Notifloud</id>
+    <version>1.0.0</version>
+    <title>Notifloud</title>
+    <authors>Notifloud</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.AspNetCore.Razor" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\Documents\Projects\Notifloud-dotnet\Notifloud-dotnet\bin\Debug\net7.0\Notifloud.dll" target="lib\net7.0\Notifloud.dll" />
+  </files>
+</package>

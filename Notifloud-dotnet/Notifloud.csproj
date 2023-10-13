@@ -5,6 +5,7 @@
     <RootNamespace>Notifloud_dotnet</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Notifloud</Title>
   </PropertyGroup>
 
   <ItemGroup>
