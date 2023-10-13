@@ -1,4 +1,4 @@
-﻿namespace Notifloud_dotnet
+﻿namespace Notifloud
 {
     public class NotifloudToast
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Notifloud_dotnet.Tag
+namespace Notifloud.Tag
 {
     public class NotifloudTag : TagHelper
     {
@@ -15,8 +15,8 @@ namespace Notifloud_dotnet.Tag
             output.TagName = "div";
 
             output.Attributes.Add("class", CLASS_NAME);
-            
-            foreach(var toast in Notifloud.Toasts)
+
+            foreach (var toast in Notifloud.Toasts)
             {
                 output.PreContent.AppendHtml($@"
                     <div class=""toast"">

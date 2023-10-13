@@ -1,4 +1,4 @@
-﻿namespace Notifloud_dotnet
+﻿namespace Notifloud
 {
     public class Notifloud
     {
@@ -12,11 +12,11 @@
 
         public void Error(string message) =>
             Toasts.Add(NotifloudToast.Create(ToastType.Error, message));
-        
-        public void Information(string message) => 
+
+        public void Information(string message) =>
             Toasts.Add(NotifloudToast.Create(ToastType.Error, message));
 
-        public void Warning(string message) => 
+        public void Warning(string message) =>
             Toasts.Add(NotifloudToast.Create(ToastType.Error, message));
     }
 }
