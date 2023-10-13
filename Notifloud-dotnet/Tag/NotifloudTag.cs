@@ -10,7 +10,7 @@ namespace Notifloud_dotnet.Tag
         public NotifloudTag(Notifloud notifloud) =>
             Notifloud = notifloud;
 
-        public override void Process(TagHelperContext context, TagHelperOutput output)
+        public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
         {
             output.TagName = "div";
 
@@ -18,15 +18,15 @@ namespace Notifloud_dotnet.Tag
             
             foreach(var toast in Notifloud.Toasts)
             {
-                output.PreContent.AppendHtml(@"
+                output.PreContent.AppendHtml($@"
                     <div class=""toast"">
                         <div class=""toast-inner"">
-                            <div class=""icon {type}"">{icons[type]}</div>
+                            <div class=""icon {toast.Type}""></div>
                             <div class=""content"">
-                                <h2>${title ?? DEFAULT_TITLE}</h2>
-                                <p>${content ?? DEFAULT_CONTENT}</p>
+                                <h2>${toast.Title ?? ""}</h2>
+                                <p>${toast.Message ?? ""}</p>
                             </div>
-                            <button class=""close"">${icons[""close""]}</button>
+                            <button class=""close"">close</button>
                         </div>
                     </div>
                 ");
